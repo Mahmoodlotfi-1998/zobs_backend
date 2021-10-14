@@ -1,0 +1,245 @@
+@font-face {
+    font-family: 'IRANSans_Bold';
+    src: url('../font/IRANSans_Bold.ttf')  format('truetype');
+}
+.body{
+    background: #fff url("http://pisone.ir/include/pic/background_pisone.jpg") center;
+    /*background-size: 100% 1000px;*/
+    background-repeat: no-repeat;
+    /*position: fixed;*/
+}
+.body_pay{
+    background-image: url("http://pisone.ir/include/pic/background_pisone.jpg");
+    background-size: 1400px 800px;
+    background-repeat: no-repeat;
+    position: fixed;
+    float: right;
+    width: 100%;
+}
+
+*{
+    font-family: "IRANSans_Bold";
+}
+
+.content{
+    width: 100%;
+    height: 100%;
+    float: right;
+    text-align: center;
+}
+.contain{
+    width: 60%;
+    height: 95%;
+    text-align: right;
+    float: right;
+    margin-top: 5%;
+
+}
+.contain_form{
+    width: 100%;
+    height: 95%;
+    text-align: right;
+    float: right;
+    margin-top: 5%;
+
+}
+.contain_pay{
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    margin-left: 7%;
+    float: right;
+}
+
+.matn{
+    color: rgb(37 0 187);
+    background: initial;
+    font-size: 20px;
+
+}
+.mony{
+    color: rgb(0 255 39);
+
+    background: initial;
+    margin-top: 10px;
+    width: 100%;
+    float: right;
+}
+.orange-text{
+    color: orange;
+}
+.confim{
+    color: black;
+    background: initial;
+    margin-top: 10px;
+    width: 100%;
+    float: right;
+}
+.pay_btn{
+    background-color: #b70000;
+    background-image: linear-gradient(#e50202, #640000);
+    color: azure;
+    width: 40%;
+    height: 40px;
+    border-radius: 50px;
+    float: right;
+    margin-right: 30%;
+}
+.pay_back{
+    background-color: #5a5a5a;
+    background-image: linear-gradient(#5a5a5a, #8e8f8e);
+    color: azure;
+    width: 40%;
+    height: 35px;
+    border-radius: 50px;
+    float: right;
+    margin-right: 30%;
+    margin-top: 18px;
+    padding-top: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+.image{
+    width: 350px; height: 500px;
+}
+.app{
+    width:30%;
+    height: 100%;
+    float: right;
+}
+.contain2{
+    direction: rtl;width: 60%; height: 40%; float: right;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.support{
+    width: 40%; height: 100%; float: right;
+}
+.support2{
+    direction: ltr; width: 50%; height: 100%; float: right; text-align: right;
+}
+.phone{
+    width: 50%; height: 50%;direction: rtl; float: right; margin-right: 22%;
+}
+.footer{
+    text-align:center;  height: 5%; width: 100%; float: right;
+}
+.header{
+    width: 100%; height: 20%; float: right;
+    font-size: 18px;
+}
+.header-pay{
+    width: 100%; height: 20%; float: right;
+    font-size: 18px;
+}
+.download-link{
+    width: 100%;
+    float: right;
+}
+.webapp{
+    border-radius:10px;
+    padding:15px;
+    background-color: #001666;
+    float: right;
+    color: white;
+    width: 14%;
+    margin-right: 10px;
+}
+.direct{
+    margin-right: 10px;
+     border-radius:10px;
+     padding:15px;
+     background-color:#9d162e;
+     color: white;
+     float: right;
+     width: 14%;
+ }
+.bazar{
+    border-radius:10px;
+    padding:14px;
+    background-color:white;
+    color: #9d162e;
+    float: right;
+    width: 14%;
+}
+.phone_link{
+    width: 38%;
+    float: right;
+}
+@media only screen and (max-width: 700px) {
+    .phone_link{
+        width: 100%;
+    }
+    .webapp{
+        width: 100%;
+        float: right;
+        margin-right: 0;
+        margin-top: 5%;
+    }
+    .bazar{
+        width: 100%;
+        float: right;
+        margin-top: 5%;
+
+    }.direct{
+         width: 100%;
+         float: right;
+        margin-right: 0;
+             margin-top: 5%;
+     }
+    .contain_pay{
+        margin-top: 55%;
+    }
+    *{
+        font-size: 16px;
+    }
+    .app{
+        width:50%;
+        height: 25%;
+        margin-right: 12%;
+    }
+    .image{
+        width: 100%; height: 100%;
+    }
+    .contain{
+        width: 100%;
+        height: 75%;
+    }
+    .contain2{
+        width: 90%;
+        margin-top: -5%;
+    }
+    .phone{
+        width: 100%;
+        float: right;
+        margin-right: -15%;
+    }
+    .support{
+        width: 100%;
+        float: right;
+    }
+    .support2{
+        width: 100%;
+        /*float: right;*/
+        text-align: center;
+        margin-right: 20%;
+    }
+    body{
+        background-size: 400px 800px;
+    }
+    .footer{
+        margin-top: 1px;
+        margin-right: 10%;
+    }
+    .header{
+        /*font-size: 10px;*/
+        margin-top: -20px;
+        margin-right: 20%;
+    }
+    .header-pay{
+        margin-top: -44px;
+    }
+
+}
